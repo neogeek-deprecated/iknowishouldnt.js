@@ -1,6 +1,6 @@
 #I Know I Shouldn't
 
-This micro-library _does_ modify the prototype of both String and Array. However it does so with non enumerable methods.
+This micro-library _does_ modify the prototype of both String and Array. However it does so with non-enumerable methods.
 
 ##String.prototype.format
 
