@@ -1,3 +1,5 @@
+[![](https://api.travis-ci.org/neogeek/iknowishouldnt.js.svg)](https://travis-ci.org/neogeek/iknowishouldnt.js) [![](https://david-dm.org/neogeek/iknowishouldnt.js/dev-status.svg)](https://david-dm.org/neogeek/iknowishouldnt.js/#info=devDependencies)
+
 #I Know I Shouldn't
 
 This micro-library _does_ modify the prototype of both String and Array. However it does so with non-enumerable methods.
