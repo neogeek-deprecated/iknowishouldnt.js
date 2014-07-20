@@ -1,12 +1,12 @@
 /*!
- * I Know I Shouldn't v1
+ * I Know I Shouldn't
  * https://github.com/neogeek/iknowishouldnt.js
  *
  * Copyright (c) 2014 Scott Doxey
  * Released under the MIT license
  */
 
-(function (undefined) {
+(function () {
 
     'use strict';
 
