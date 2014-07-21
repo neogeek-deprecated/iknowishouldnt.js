@@ -1,7 +1,7 @@
 {
     "name": "I Know I Shouldn't",
-    "description": "This micro-library does modify the prototype of String and Array. However it does so with non-enumerable methods.",
-    "version": "0.0.1",
+    "description": "A micro-library that contains snippets of code useful for modifying strings and arrays. While it does modify the native prototype of String and Array, it does so with non-enumerable methods.",
+    "version": "0.0.2",
     "main": "iknowishouldnt.js",
     "license": "MIT",
     "ignore": [

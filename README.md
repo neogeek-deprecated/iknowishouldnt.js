@@ -2,7 +2,7 @@
 
 #I Know I Shouldn't
 
-This micro-library _does_ modify the prototype of both String and Array. However it does so with non-enumerable methods.
+A micro-library that contains snippets of code useful for modifying strings and arrays. While it does modify the native prototype of String and Array, it does so with non-enumerable methods.
 
 ##String.prototype.format
 
