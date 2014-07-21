@@ -1,0 +1,28 @@
+{
+    "name": "I Know I Shouldn't",
+    "description": "This micro-library does modify the prototype of String and Array. However it does so with non-enumerable methods.",
+    "version": "0.0.1",
+    "main": "iknowishouldnt.js",
+    "license": "MIT",
+    "ignore": [
+    ],
+    "keywords": [
+        "prototype",
+        "string",
+        "formatting",
+        "array",
+        "chunk"
+    ],
+    "authors": [
+        {
+            "name": "Scott Doxey",
+            "email": "hello@scottdoxey.com",
+            "homepage": "http://scottdoxey.com/"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/neogeek/iknowishouldnt.js.git"
+    },
+    "private": true
+}
