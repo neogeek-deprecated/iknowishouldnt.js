@@ -17,27 +17,32 @@
         value: function () {
 
             var value = this,
+                matches = value.match(/(%[sif])/g),
                 replacements = Array.prototype.slice.call(arguments);
 
-            value.match(/(%[sif])/g).forEach(function (match, key) {
+            if (matches) {
 
-                if (replacements[key] !== undefined) {
+                matches.forEach(function (match, key) {
 
-                    if (match === '%i') {
+                    if (replacements[key] !== undefined) {
 
-                        replacements[key] = parseInt(replacements[key], 10);
+                        if (match === '%i') {
 
-                    } else if (match === '%f') {
+                            replacements[key] = parseInt(replacements[key], 10);
 
-                        replacements[key] = parseFloat(replacements[key]);
+                        } else if (match === '%f') {
+
+                            replacements[key] = parseFloat(replacements[key]);
+
+                        }
+
+                        value = value.replace(match, replacements[key]);
 
                     }
 
-                    value = value.replace(match, replacements[key]);
+                });
 
-                }
-
-            });
+            }
 
             return value;
 
