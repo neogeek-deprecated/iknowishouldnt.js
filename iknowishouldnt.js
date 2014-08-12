@@ -10,6 +10,16 @@
 
     'use strict';
 
+    /**
+     * Returns a formated string.
+     *
+     *     'Hello %s'.format('World!'); // Hello World!
+     *
+     * @param {String|Number?} arguments Multiple arguments can be passed as either strings or numbers.
+     * @return {String} Formatted string.
+     * @public
+     */
+
     Object.defineProperty(String.prototype, 'format', {
 
         enumerable: false,
@@ -17,7 +27,7 @@
         value: function () {
 
             var value = this,
-                matches = value.match(/(%[sif])/g),
+                matches = value.match(/(%[sidf])/g),
                 replacements = Array.prototype.slice.call(arguments);
 
             if (matches) {
@@ -26,7 +36,7 @@
 
                     if (replacements[key] !== undefined) {
 
-                        if (match === '%i') {
+                        if (match === '%i' || match === '%d') {
 
                             replacements[key] = parseInt(replacements[key], 10);
 
@@ -49,6 +59,16 @@
         }
 
     });
+
+    /**
+     * Splits an array into separate chunks based on the length specified.
+     *
+     *     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].chunk(2); // [ [0, 1], [2, 3], [4, 5], [6, 7], [8, 9] ]
+     *
+     * @param {Number} num The max size of each chunk.
+     * @return {Array} Multidimensional array containing the separated chunks.
+     * @public
+     */
 
     Object.defineProperty(Array.prototype, 'chunk', {
 

@@ -12,9 +12,10 @@ describe('iknowishouldnt.js Tests', function () {
 
         });
 
-        it('Testing integer type.', function () {
+        it('Testing integer type with both flags.', function () {
 
             expect('hsl(%i, 50%, 50%)'.format(125.1)).toBe('hsl(125, 50%, 50%)');
+            expect('hsl(%d, 50%, 50%)'.format(125.1)).toBe('hsl(125, 50%, 50%)');
 
         });
 
