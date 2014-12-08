@@ -15,7 +15,7 @@
      *
      *     'Hello %s'.format('World!'); // Hello World!
      *
-     * @param {String|Number?} arguments Multiple arguments can be passed as either strings or numbers.
+     * @param {String|Number} [arguments] Multiple arguments can be passed as either strings or numbers.
      * @return {String} Formatted string.
      * @public
      */
