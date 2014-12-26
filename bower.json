@@ -1,7 +1,7 @@
 {
     "name": "I Know I Shouldn't",
     "description": "A micro-library that contains snippets of code useful for modifying strings and arrays. While it does modify the native prototype of String and Array, it does so with non-enumerable methods.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "iknowishouldnt.js",
     "license": "MIT",
     "ignore": [

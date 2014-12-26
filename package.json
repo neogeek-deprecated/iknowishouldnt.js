@@ -1,7 +1,7 @@
 {
     "name": "iknowishouldnt.js",
     "description": "A micro-library that contains snippets of code useful for modifying strings and arrays.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "iknowishouldnt.js",
     "devDependencies": {
         "grunt": "0.4.5",

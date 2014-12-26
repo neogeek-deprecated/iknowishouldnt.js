@@ -1,4 +1,4 @@
-[![](https://api.travis-ci.org/neogeek/iknowishouldnt.js.svg)](https://travis-ci.org/neogeek/iknowishouldnt.js) [![](https://david-dm.org/neogeek/iknowishouldnt.js/dev-status.svg)](https://david-dm.org/neogeek/iknowishouldnt.js/#info=devDependencies)
+[![](https://api.travis-ci.org/neogeek/iknowishouldnt.js.svg?style=flat)](https://travis-ci.org/neogeek/iknowishouldnt.js) [![](https://david-dm.org/neogeek/iknowishouldnt.js/dev-status.svg?style=flat)](https://david-dm.org/neogeek/iknowishouldnt.js/#info=devDependencies) [![Latest Documentation](https://doxdox.org/images/badge-flat.svg)](https://doxdox.org/)
 
 #I Know I Shouldn't
 
