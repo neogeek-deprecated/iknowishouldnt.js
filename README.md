@@ -12,6 +12,7 @@ Returns a formatted string.
 | --------- | ---- |
 | s | String |
 | i | Integer |
+| d | Digit |
 | f | Float |
 
 ```javascript
