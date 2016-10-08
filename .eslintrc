@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@neogeek/eslint-config-standards"
+  ],
+  "rules": {
+    "consistent-this": 0,
+    "func-names": 0,
+    "no-extend-native": 0,
+    "no-invalid-this": 0,
+    "prefer-reflect": 0
+  }
+}
