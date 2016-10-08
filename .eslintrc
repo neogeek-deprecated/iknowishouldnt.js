@@ -7,6 +7,7 @@
     "func-names": 0,
     "no-extend-native": 0,
     "no-invalid-this": 0,
-    "prefer-reflect": 0
+    "prefer-reflect": 0,
+    "prefer-rest-params": 0
   }
 }

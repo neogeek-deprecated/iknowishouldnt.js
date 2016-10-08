@@ -15,37 +15,38 @@
  * @public
  */
 
-const format = function (...replacements) {
+Object.defineProperty(String.prototype, 'format', {
+    'enumerable': false,
+    value () {
 
-    let value = this;
+        'use strict';
 
-    (value.match(/(%[sidf])/g) || []).forEach((match, key) => {
+        let value = this;
+        const replacements = Array.prototype.slice.call(arguments);
 
-        if (typeof replacements[key] !== 'undefined') {
+        (value.match(/(%[sidf])/g) || []).forEach((match, key) => {
 
-            if (match === '%i' || match === '%d') {
+            if (typeof replacements[key] !== 'undefined') {
 
-                replacements[key] = parseInt(replacements[key], 10);
+                if (match === '%i' || match === '%d') {
 
-            } else if (match === '%f') {
+                    replacements[key] = parseInt(replacements[key], 10);
 
-                replacements[key] = parseFloat(replacements[key]);
+                } else if (match === '%f') {
+
+                    replacements[key] = parseFloat(replacements[key]);
+
+                }
+
+                value = value.replace(match, replacements[key]);
 
             }
 
-            value = value.replace(match, replacements[key]);
+        });
 
-        }
+        return value;
 
-    });
-
-    return value;
-
-};
-
-Object.defineProperty(String.prototype, 'format', {
-    'enumerable': false,
-    'value': format
+    }
 });
 
 /**
@@ -57,21 +58,21 @@ Object.defineProperty(String.prototype, 'format', {
  * @public
  */
 
-const chunk = function (num) {
-
-    const array = [];
-
-    while (this.length) {
-
-        array.push(this.splice(0, num));
-
-    }
-
-    return array;
-
-};
-
 Object.defineProperty(Array.prototype, 'chunk', {
     'enumerable': false,
-    'value': chunk
+    value (num) {
+
+        'use strict';
+
+        const array = [];
+
+        while (this.length) {
+
+            array.push(this.splice(0, num));
+
+        }
+
+        return array;
+
+    }
 });
