@@ -1,5 +1,7 @@
 # I Know I Shouldn't
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/iknowishouldnt.js.svg)](https://greenkeeper.io/)
+
 > A micro-library that contains snippets of code useful for modifying strings and arrays. While it does modify the native prototype of String and Array, it does so with non-enumerable methods.
 
 [![](https://api.travis-ci.org/neogeek/iknowishouldnt.js.svg?style=flat)](https://travis-ci.org/neogeek/iknowishouldnt.js)
