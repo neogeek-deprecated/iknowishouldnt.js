@@ -4,9 +4,9 @@
   "version": "0.0.5",
   "main": "iknowishouldnt.js",
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.6.2",
-    "eslint": "3.7.1",
-    "mocha": "3.1.0"
+    "@neogeek/eslint-config-standards": "1.13.0",
+    "eslint": "3.15.0",
+    "mocha": "3.2.0"
   },
   "scripts": {
     "test": "eslint iknowishouldnt.js test/ && mocha test/**/*.js"

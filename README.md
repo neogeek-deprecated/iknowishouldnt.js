@@ -4,6 +4,8 @@
 
 [![](https://api.travis-ci.org/neogeek/iknowishouldnt.js.svg?style=flat)](https://travis-ci.org/neogeek/iknowishouldnt.js)
 [![](https://david-dm.org/neogeek/iknowishouldnt.js/dev-status.svg?style=flat)](https://david-dm.org/neogeek/iknowishouldnt.js?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/iknowishouldnt.js.svg)](https://greenkeeper.io/)
+[![Latest Documentation](https://doxdox.org/images/badge-flat.svg)](https://doxdox.org/neogeek/iknowishouldnt.js)
 
 ## String.prototype.format
 
