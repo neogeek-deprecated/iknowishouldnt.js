@@ -2,7 +2,7 @@
  * I Know I Shouldn't
  * https://github.com/neogeek/iknowishouldnt.js
  *
- * Copyright (c) 2016 Scott Doxey
+ * Copyright (c) 2017 Scott Doxey
  * Released under the MIT license
  */
 
