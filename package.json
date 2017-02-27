@@ -4,7 +4,7 @@
   "version": "0.0.5",
   "main": "iknowishouldnt.js",
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.13.0",
+    "@neogeek/eslint-config-standards": "1.13.1",
     "eslint": "3.16.1",
     "mocha": "3.2.0"
   },
